@@ -1,0 +1,58 @@
+#status {
+      display: inline-block;
+}
+
+body {
+     background-size: cover;
+     font-family: OverPass Mono Light;
+     font-weight: 500;
+}
+
+.header {
+     z-index: 99;
+     top: 0;
+     width: 100%;
+     padding: 10px 0px;
+     text-align: center;
+}
+
+#instructions-btn {
+     margin: 0;
+     float: right;
+     margin-right: 20px;
+     margin-left: 0;
+}
+
+#header-text {
+     display: inline;
+}
+
+#footer {
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     line-height: 2;
+}
+
+.modal-dialog 
+{
+      width: 70%;
+}
+
+.modal-body
+{
+      text-align: left;
+      font-size: 20px;
+}
+
+canvas {
+   border: 2px solid black;
+   box-shadow: 
+   
+   2px 2px 25px rgb(97, 97, 97 , 1),
+   2px 2px 25px rgb(97, 97, 97, 0.9),
+   2px 2px 25px rgb(97, 97, 97, 0.8),
+   2px 2px 25px rgb(97, 97, 97, 0.7),
+   2px 2px 25px rgb(97, 97, 97, 0.6),
+   2px 2px 25px rgb(97, 97, 97, 0.5);
+}
